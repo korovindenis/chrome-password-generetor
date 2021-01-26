@@ -1,2 +1,2 @@
-# chrome-password-generetor
+# chrome-password-maker
 Chrome Extensions
