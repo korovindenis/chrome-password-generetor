@@ -1,0 +1,27 @@
+{
+  "name": "Chrome password maker",
+  "version": "1.0",
+  "description": "Create strong password!",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "options_page": "html/options.html",
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "html/popup.html",
+    "default_icon": {
+      "16": "img/16.png",
+      "32": "img/32.png",
+      "48": "img/48.png",
+      "128": "img/128.png"
+    }
+  },
+  "icons": {
+    "16": "img/16.png",
+    "32": "img/32.png",
+    "48": "img/48.png",
+    "128": "img/128.png"
+  },
+  "manifest_version": 2
+}
