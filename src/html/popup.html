@@ -11,9 +11,10 @@
   </header>
 
   <div class="main-container">
-    <input type="text" class="passwd" placeholder="Your password">
-    <button class="passwdButton">Generate</button>
+    <input id="resPass" type="text" class="passInput" placeholder="Your password" readonly>
+    <input type="number" id="quantity" class="passInput quantityInput" min="1" max="20">
+    <button id="newPass" class="passwdButton">Generate</button>
   </div>
+  <script src="../js/popup.js"></script>
 </body>
-
 </html>

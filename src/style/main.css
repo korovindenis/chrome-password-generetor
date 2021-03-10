@@ -18,7 +18,7 @@ header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.passwd {
+.passInput {
     background: #fff;
     color: #525865;
     border-radius: 4px;
@@ -34,22 +34,22 @@ header {
     transition: .18s ease-out;
 }
 
-.passwd:hover {
+.passInput:hover {
     box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.02);
 }
 
-.passwd:focus {
+.passInput:focus {
     color: #4b515d;
     border: 1px solid #B8B6B6;
     box-shadow: inset 1px 2px 4px rgba(0, 0, 0, 0.01), 0px 0px 8px rgba(0, 0, 0, 0.2);
 }
 
-.passwd::-webkit-input-placeholder {
+.passInput::-webkit-input-placeholder {
     opacity: 1;
     transition: opacity 0.3s ease;
 }
 
-.passwd:focus::-webkit-input-placeholder {
+.passInput:focus::-webkit-input-placeholder {
     opacity: 0;
     transition: opacity 0.3s ease;
 }
@@ -71,4 +71,9 @@ header {
 
 .passwdButton:hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.quantityInput {
+    width: 40px;
+    padding: 0.6em 0.3em 0.6em 0.3em;
 }
