@@ -1,7 +1,7 @@
 # chrome-password-maker
 Chrome Extensions
 
-[![N|Solid](screenshots/scr.png)](Chrome password maker)
+[![N|Solid](screenshots/scr.png)
 
 Free and secure password generator
 
