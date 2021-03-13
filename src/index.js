@@ -1,3 +1,5 @@
+import './styles.css';
+
 const newPass = document.getElementById("newPass");
 const resPass = document.getElementById("resPass");
 const quantity = document.getElementById("quantity");
@@ -38,7 +40,7 @@ function rndUpper() {
     return String.fromCharCode(Math.floor(Math.random() * 26) + 65);
 }
 
-function newPassword(upper, lower, number, length, symbol=true) {
+function newPassword(upper, lower, number, length, symbol = true) {
     let tmp = "";
     const type = [{
         upper

@@ -17,6 +17,7 @@ header {
     padding-top: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
 .checkBoxes {
     padding: 1.5em 1em 0.7em;
 }
@@ -80,18 +81,19 @@ header {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-button, 
-button:active, 
+button,
+button:active,
 button:focus {
     outline: none;
 }
+
 .quantityInput {
     width: 40px;
     padding: 0.6em 0.3em 0.6em 0.3em;
     margin: 0 0 0 15px;
 }
 
-.inLineText{
+.inLineText {
     display: inline;
     height: 100%;
 }
