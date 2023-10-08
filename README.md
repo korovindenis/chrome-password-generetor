@@ -1,7 +1,7 @@
 
 <p  align="center">
 
-<img  height="450px"  alt="Shows an illustrated sun in light mode and a moon with stars in dark mode."  src="https://github.com/korovindenis/chrome-password-maker/raw/master/.github/img/InlinePreview.png">
+<img  alt="Shows an illustrated sun in light mode and a moon with stars in dark mode."  src="https://github.com/korovindenis/chrome-password-maker/raw/master/.github/img/InlinePreview.png">
 
 </p>
 
